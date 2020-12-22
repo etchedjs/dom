@@ -1,0 +1,31 @@
+{
+  "name": "@etchedjs/dom",
+  "version": "1.0.0",
+  "description": "A utility to write some DOM elements, based on @etchedjs/etched.",
+  "main": "dom.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etchedjs/dom.git"
+  },
+  "author": "@etchedjs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/etchedjs/dom/issues"
+  },
+  "homepage": "https://github.com/etchedjs/dom#readme",
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  },
+  "peerDependencies": {
+    "jsdom": "^16.4.0",
+    "@etchedjs/etched": "6.0.11"
+  }
+}
