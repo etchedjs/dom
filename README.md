@@ -2,7 +2,7 @@
 
 [![](https://raw.githubusercontent.com/Lcfvs/library-peer/main/badge.svg)](https://github.com/Lcfvs/library-peer#readme)
 
-A utility to write some DOM elements, based on [`@etchedjs/etched`](../etched).
+A utility to write some DOM elements, based on [`@etchedjs/etched`](https://github.com/etchedjs/etched).
 
 
 ## Install
@@ -12,7 +12,7 @@ A utility to write some DOM elements, based on [`@etchedjs/etched`](../etched).
 
 ### Implementations
 
-* [`@etchedjs/html`](../html)
+* [`@etchedjs/html`](https://github.com/etchedjs/html)
 
 
 ## Exports
