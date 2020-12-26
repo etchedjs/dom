@@ -70,10 +70,18 @@ export function declare (element, {
   dataset = null,
   ...attributes
 } = {}) {
-  return etch(model(etch(element, attributes)), {
-    children: children && model(element.children || scopes.children, children),
-    dataset: dataset && model(element.dataset || scopes.dataset, dataset)
-  })
+  const rest = {}
+
+  if (children) {
+    rest.children = model(element.children || scopes.children, children)
+  }
+
+  if (dataset) {
+    rest.dataset = model(element.dataset || scopes.dataset, dataset)
+  }
+
+
+  return etch(model(etch(element, attributes)), rest)
 }
 
 export function fill (element, {
