@@ -1,6 +1,6 @@
 {
   "name": "@etchedjs/dom",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A utility to write some DOM elements, based on @etchedjs/etched.",
   "main": "dom.js",
   "type": "module",
