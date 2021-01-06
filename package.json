@@ -26,6 +26,6 @@
   },
   "peerDependencies": {
     "jsdom": "^16.4.0",
-    "@etchedjs/etched": "8.0.1"
+    "@etchedjs/etched": "8.0.2"
   }
 }
