@@ -1,6 +1,6 @@
 {
   "name": "@etchedjs/dom",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "A utility to write some DOM elements, based on @etchedjs/etched.",
   "main": "dom.js",
   "type": "module",
@@ -21,7 +21,7 @@
     "eslint": "^7.27.0"
   },
   "peerDependencies": {
-    "@etchedjs/etched": "^9.1.1",
+    "@etchedjs/etched": "^9.1.3",
     "jsdom": "^16.6.0"
   }
 }
